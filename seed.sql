@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS users(
 	id SERIAL PRIMARY KEY,
 	username VARCHAR(200) UNIQUE NOT NULL,
 	password VARCHAR(2000),
-	is_admin BOOL,
+	role VARCHAR(10),
 	product_id INT,
 	created_at VARCHAR(100),
 	deleted_at VARCHAR(100)
@@ -35,3 +35,8 @@ CREATE TABLE IF NOT EXISTS tickets(
 	deleted_at VARCHAR(100),
 	FOREIGN KEY (submitter_id) REFERENCES users(id)
 );
+
+ALTER TABLE
+	users
+ADD
+	FOREIGN KEY (product_id) REFERENCES products(id);
