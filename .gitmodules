@@ -1,0 +1,6 @@
+[submodule "Vue"]
+	path = Vue
+	url = https://github.com/Ticketico/TicketicoFrontend
+[submodule "Fastify.js"]
+	path = Fastify.js
+	url = https://github.com/Ticketico/TicketicoBackend
