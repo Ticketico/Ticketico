@@ -30,6 +30,8 @@ CREATE TABLE IF NOT EXISTS tickets(
 	description VARCHAR(2000),
 	deadline VARCHAR(100),
 	submitter_id INT,
+	product_id INT,
+	type VARCHAR(100)
 	created_at VARCHAR(100),
 	deleted_at VARCHAR(100),
 	FOREIGN KEY (submitter_id) REFERENCES users(id)
