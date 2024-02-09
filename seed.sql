@@ -18,7 +18,6 @@ CREATE TABLE IF NOT EXISTS products(
 	id SERIAL PRIMARY KEY,
 	title VARCHAR(200),
 	description VARCHAR(2000),
-	picture VARCHAR(10000),
 	admin_id INT,
 	created_at VARCHAR(100),
 	deleted_at VARCHAR(100),

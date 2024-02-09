@@ -1,5 +1,20 @@
 # TicketManager-Backend
 
+## Successful Response Code Agreements
+
++ LS => logged in successfully //Not Used
++ SS => signed up successfully
+
++ UES => user editted successfully
+
++ PAS => product added successfully
++ PES => product editted successfully
++ PDS => product deleted successfully
+
++ TAS => ticket added successfully
++ TES => ticket editted successfully
++ TDS => ticket deleted successfully
+
 ## Error Response Code Agreements
 
 + PAICDM => password and its confirmation don't match
